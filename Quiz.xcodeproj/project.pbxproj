@@ -21,6 +21,12 @@
 		8F183C6D19193AE600B16C82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F183C4F19193AE600B16C82 /* UIKit.framework */; };
 		8F183C7519193AE600B16C82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F183C7319193AE600B16C82 /* InfoPlist.strings */; };
 		8F183C7719193AE600B16C82 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F183C7619193AE600B16C82 /* QuizTests.m */; };
+		8F183C821919407B00B16C82 /* Q1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F183C811919407B00B16C82 /* Q1ViewController.m */; };
+		8F183C851919408600B16C82 /* Q2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F183C841919408600B16C82 /* Q2ViewController.m */; };
+		8F183C88191940A200B16C82 /* Q3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F183C87191940A200B16C82 /* Q3ViewController.m */; };
+		8F183C8B191940AB00B16C82 /* Q4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F183C8A191940AB00B16C82 /* Q4ViewController.m */; };
+		8F183C8E191940B200B16C82 /* Q5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F183C8D191940B200B16C82 /* Q5ViewController.m */; };
+		8F183C91191940BA00B16C82 /* EndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F183C90191940BA00B16C82 /* EndViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,18 @@
 		8F183C7219193AE600B16C82 /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
 		8F183C7419193AE600B16C82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F183C7619193AE600B16C82 /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		8F183C801919407B00B16C82 /* Q1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q1ViewController.h; sourceTree = "<group>"; };
+		8F183C811919407B00B16C82 /* Q1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q1ViewController.m; sourceTree = "<group>"; };
+		8F183C831919408600B16C82 /* Q2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q2ViewController.h; sourceTree = "<group>"; };
+		8F183C841919408600B16C82 /* Q2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q2ViewController.m; sourceTree = "<group>"; };
+		8F183C86191940A200B16C82 /* Q3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q3ViewController.h; sourceTree = "<group>"; };
+		8F183C87191940A200B16C82 /* Q3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q3ViewController.m; sourceTree = "<group>"; };
+		8F183C89191940AB00B16C82 /* Q4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q4ViewController.h; sourceTree = "<group>"; };
+		8F183C8A191940AB00B16C82 /* Q4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q4ViewController.m; sourceTree = "<group>"; };
+		8F183C8C191940B200B16C82 /* Q5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q5ViewController.h; sourceTree = "<group>"; };
+		8F183C8D191940B200B16C82 /* Q5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q5ViewController.m; sourceTree = "<group>"; };
+		8F183C8F191940BA00B16C82 /* EndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndViewController.h; sourceTree = "<group>"; };
+		8F183C90191940BA00B16C82 /* EndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +133,9 @@
 				8F183C5A19193AE600B16C82 /* AppDelegate.h */,
 				8F183C5B19193AE600B16C82 /* AppDelegate.m */,
 				8F183C5D19193AE600B16C82 /* Main.storyboard */,
+				8F183C92191940C000B16C82 /* Questions */,
+				8F183C8F191940BA00B16C82 /* EndViewController.h */,
+				8F183C90191940BA00B16C82 /* EndViewController.m */,
 				8F183C6019193AE600B16C82 /* ViewController.h */,
 				8F183C6119193AE600B16C82 /* ViewController.m */,
 				8F183C6319193AE600B16C82 /* Images.xcassets */,
@@ -150,6 +171,23 @@
 				8F183C7319193AE600B16C82 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F183C92191940C000B16C82 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				8F183C801919407B00B16C82 /* Q1ViewController.h */,
+				8F183C811919407B00B16C82 /* Q1ViewController.m */,
+				8F183C831919408600B16C82 /* Q2ViewController.h */,
+				8F183C841919408600B16C82 /* Q2ViewController.m */,
+				8F183C86191940A200B16C82 /* Q3ViewController.h */,
+				8F183C87191940A200B16C82 /* Q3ViewController.m */,
+				8F183C89191940AB00B16C82 /* Q4ViewController.h */,
+				8F183C8A191940AB00B16C82 /* Q4ViewController.m */,
+				8F183C8C191940B200B16C82 /* Q5ViewController.h */,
+				8F183C8D191940B200B16C82 /* Q5ViewController.m */,
+			);
+			name = Questions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F183C88191940A200B16C82 /* Q3ViewController.m in Sources */,
+				8F183C91191940BA00B16C82 /* EndViewController.m in Sources */,
+				8F183C8B191940AB00B16C82 /* Q4ViewController.m in Sources */,
+				8F183C8E191940B200B16C82 /* Q5ViewController.m in Sources */,
 				8F183C6219193AE600B16C82 /* ViewController.m in Sources */,
 				8F183C5C19193AE600B16C82 /* AppDelegate.m in Sources */,
+				8F183C851919408600B16C82 /* Q2ViewController.m in Sources */,
+				8F183C821919407B00B16C82 /* Q1ViewController.m in Sources */,
 				8F183C5819193AE600B16C82 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
